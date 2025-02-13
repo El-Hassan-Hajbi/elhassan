@@ -190,7 +190,7 @@ To continue reading here are some valuable writings.
 ## Part 2: Procurement risk & resilience AI Agent
 
 
-![img](assets/img.png)
+![img](_posts/assets/17384938530856.jpg)
 
 the llm decides to use visual similarity. which will redirect to either 2D or 3D similarity (with the appropriate data format: data conversion tool) depending on the extension provided. (it can be useless to wait for the model reason on which 3D similarity tool to use based on the extension of the files. but hard code this while the agent just chooses to use a "visual similarity" tool, which will redirect to the right node (2D or 3D, and based on the extension))
 
