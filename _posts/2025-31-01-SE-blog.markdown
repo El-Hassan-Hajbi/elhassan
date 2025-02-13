@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "SE Blog"
+date:   2025-01-31 18:08:28 +0000
+categories: jekyll update
+---
+### Few lines about me at Schneider ..
+
+*I have the chance to work on impacting use cases, that not only support critic procurement functions, but has the ambition to unlock a considerable amount of savings and business productivity.*
+
+My journey at Schneider started with forecasting plastic compound trends based on upstream and downstream data from internal and external sources.
+
+I think, the most complicated part of my work, or shall I say, the thing I am most proud of, is how we build impact from scratch. The ability to go from 0 to 1. To understand the business, listen, learn and build fast, a solution as a sole developer. The expertise in a broad range of technologies, which makes it possible to work on the entire stack of the product. The creative mindset enables us to navigate a wide spectrum of possibilities, while the challenging reasonable one, focuses on guiding the search toward <u>impact for the business</u>. 
+
+I enjoy how I am growing inside the company, in terms of my own understanding of Schneider strategy, challenges, ambition, different functions, but also how each use cases I am working on, unlocks the potential to connect with more people, and learn more.
+
+**One would say, so what ? What have you achieved as tangible value for the business ?**
+
+Aside from the fact that I had  to generate new ideas, launch new usecases (implementating and benchmarking 3D representation learning methods, and using similarity for design standardisation, building a plateform for Raw Material simplification and Quality Value Engineering Opportunities recommendation : Component classification into engineering applications with semantic encoders on designations & vector store search, RM technical attributes extraction from Technical DataSheets using LLMs with structured output ...), handling the data mess, building and making things work, connect with people, and be my product owner. You may consider these as mere technical and organisational challenges. 
+
+When it comes to <u>business value</u> we delivered, I may mention : supporting buyers on their negotiation with forecasts and interpretability insights on the market, as a savings enabler. (PA6 represents **45% of final distribution spend**, with a **global yearly spend of 1Billion**. Supporting Category Management negotiations can lead to millions of savings).
+Then I worked on win rate prediction and lead prioritisation for china sales team, to enhance their lead success rate throughout the sales pipeline. (real-time prioritisation on a database of **75K RCC leads**, **3/4 lead results are well predicted**) Then as part of a bigger project I led : platforming QVE &  RM green recommendations, where our main ambition is to unlock the potential of navigating our large components and raw materials database *(procurement, supply chain, category mgt, engineering, TSM ..)* to find QVE opportunities (at least few **hundred K€**) at scale (visibility on rationalisation of SW/SO globally for example).  While the RM green recommendation is an alignment with <u>Schneider sustainability strategy</u>, we support OPLs (Offer Procurement Leaders) on choosing green plastics for their projects. 
+I had the opportunity to pitch at the Global Procurement Committee and collaborate with VPs during POCs and brainstorming sessions on digital transformation strategy. These experiences sharpened my ability to communicate at different levels and address business needs. 
+
+*4 Use cases, in less than 2 years.*
+
+What I like most is challenges, working on a vision to make things better, and I believe I am ready to take responsibilities and keep growing. 
+Modernising procurement digital stack and enabling our functions with impacting use cases and a value added platform.
+It is undeniable that I couldn’t achieve all this without others, thank you Olivier.  

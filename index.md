@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+*Documenting my journey*

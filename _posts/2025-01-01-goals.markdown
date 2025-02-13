@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Toward Personal Growth"
+date:   2025-01-01 18:08:28 +0000
+categories: jekyll update
+---
+
+
+An interesting blog from **Chip Huyen** on *[Measuring personal growth](https://huyenchip.com/2024/04/17/personal-growth.html)*
+
+![img](assets/17384544938007.jpg)
+
+
+
+* <u>Do hard things</u>.
+* Focus on <u>problems that matter</u>. 
+* <u>Build fast</u>, test ur hypothesis fast.
+* When needed, <u>focus on one thing</u> at once.
+* When u do something do it well : <u>excel</u> on it.
+* Be more of a <u>listener</u>, being <u>humble</u> and <u>keep learning/growing</u>.
+* Challenge urself (<u>what’s next ? So what ?</u>)
+
+*Two topics : one from hugging face release maybe absence of tokenizer. The other one for enhancing llm knowledge and text to sql accuracy, check Lamini MoME.*
+
+
