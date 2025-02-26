@@ -30,16 +30,20 @@ Yes, and I would add that function calling & structured output are the best thin
 
 mention [blog from anthropic](https://www.anthropic.com/research/building-effective-agents). and when talking abt function calling, the power of using llms as orchestrators rather than just text generators.
 
-Reason enough to believe that working either on new impacting and efficient set of tools and efficient function-calling-enabled llms & llm grounding (and on the data side, working on data connectors and text-to-sql : you may need to read about llamina) are major for the AI agent industry. Since an agent is tools+reasoning. 
+Reason enough to believe that working either on new impacting and efficient set of tools and efficient function-calling-enabled llms & llm grounding (and on the data side, working on data connectors, API gateways for agents [[WildCard YC25 startup is building around this](https://www.ycombinator.com/companies/wildcard)] and text-to-sql : [[Lamini and their mixture of memory experts](https://www.lamini.ai/blog/lamini-memory-tuning)]) are major for the AI agent industry. Since an agent is tools+reasoning. 
 
+
+
+----maybe remove this------
 then he mentions at 20min, how hard is to use new entreprise tools by an llm, but this is reason why meta-systems will emerge to distill company knowledge and tools to the agent.
 
 `one of the tools I wanna work on soon is: multimodal forecasters`. Building AI agents as a startup is inline with putting effort in different areas of research to build new capable tools, to include to the agents.
+-----------------------remove---
 
 ### <a name="tech_stack">Technical Stack</a>
-This is a non-exhaustive list of my technical stack for building agents: initiating and compiling the agent (langgraph) + [data orchastrator](https://www.youtube.com/watch?v=Xe8wYYC2gWQ) ([dagster](https://docs.dagster.io/guides/build/assets/metadata-and-tags/)) + LLM app monitoring (langfuse, langsmith) + UI & QA (langgraph studio) + some langchain prebuilt integrations and tools + groq as a free low context llm. (personaly i am not using logfire for observability, since for data observability I am using Dagster and for LLM-app observability langfuse, but looks interesting too) + data storage : use your own data engineering stack, many integrations are buitin mongoDB, snowflake ... and Pydantic for schema validation. 
+This is a non-exhaustive list of my technical stack for building agents: initiating and compiling the agent (langgraph) + [data orchastrator](https://www.youtube.com/watch?v=Xe8wYYC2gWQ) ([dagster](https://docs.dagster.io/guides/build/assets/metadata-and-tags/)) + LLM app monitoring (langfuse, langsmith) + UI for serving & debugging (langgraph studio) + some langchain prebuilt integrations and tools + groq as a free low context llm. (personaly i am not using logfire for observability, since for data observability I am using Dagster and for LLM-app observability langfuse, but looks interesting too) + data storage : use your own data engineering stack, many integrations are buitin mongoDB, snowflake ... and Pydantic for schema validation. 
 
-and obviously llamaindex and huggingface are part of my AI stack too. 
+and obviously llamaindex (llamaparse ..) and huggingface (on-the-shelf models) are part of my AI stack too. 
 
 what I like much about langgraph studio : 
 
@@ -47,8 +51,8 @@ what I like much about langgraph studio :
  - memory 
  - threads log
  - agents and assitants handler
- - config management in UI
- - state fork feature (the best)
+ - runtime-config management in UI
+ - state-fork / time-travel feature (the best)
 
 
 ### <a name="states_langgraph">Agent Graph/SubGraph State</a>
@@ -59,6 +63,8 @@ State is an agent-related concept from langgraph. Since the agents are defined a
 
 ### <a name="agent_ui">Your Agent's UI/UX</a>
 
+----- remove ---
+
 ceo of mistral AI in underscore at 15min, speaks about the importance of the agent interface, and how we are going from one-agent synchrone interface to multi-agent asynchrone interfaces. What interface for serving to user ? 
 
 *the UI (build fast, use pre-built UI)*
@@ -67,7 +73,12 @@ langstudio is excellent
 
 i didn't try coAgent yet, but for a specific UX, looks like a good option. 
 
+----- remove ---
+
 ### <a name="eval_agent">Agent: Evaluation, Monitoring & Error Handling</a>
+
+----- remove ---
+mock
 testing an agent : testing its nodes, its subgraphs, tools ... 
 
 rasing excpetions + [fallback model](https://langchain-ai.github.io/langgraph/how-tos/tool-calling-errors/#custom-strategies) ... (**error handling section**)
@@ -104,7 +115,7 @@ after webscrap, o1 was sometimes able to retrieve base url and add it to img url
 
 how to deal with the non-deterministic nature of llms? manipulate the temperature ??
 
-
+----- remove ---
 ### <a name="modularity_agent">Modularity in The Agent </a>
 
 *(good for testing purposes but also visualisation)*
@@ -120,11 +131,12 @@ all these subgraphs can be easily changed while modifying only few lines in the 
 
 ### <a name="web_agents">Reflexion on Webagents</a>
 
+WebAgents unlock a big potential of interesting usecases where you need efficient interaction with the web, thus many are building around this (multiOn, openai deepsearch, Grok deepsearch, anthropic
 for webagents, at my knowledge, the two most used approaches so far are :
 
  - you navigate to the desired website -> scrap the html -> feed it to a llm with your prompt. (scrapgraphAI)
 
- - you mark the web page + define a set of tools (click, write, go back ...) -> take screenshots -> feed the image to the vlm -> actions taking until response. ([webvoyager](https://langchain-ai.github.io/langgraph/tutorials/web-navigation/web_voyager/#use-the-graph))
+ - you intiate a playwright webpage -> you mark the web page + define a set of tools (click, write, go back ...) -> take screenshots -> feed the annotated image & an edeqaute system promtp to the vlm  -> actions taken until response. ([webvoyager](https://langchain-ai.github.io/langgraph/tutorials/web-navigation/web_voyager/#use-the-graph))
 
 Pros and cons :
 llms as webagents are expensive, and are a good solution if (you have a large-context free llm)
