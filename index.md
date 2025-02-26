@@ -5,4 +5,4 @@
 layout: home
 ---
 
-*Documenting my journey*
+*[My CV](CV.pdf)*
