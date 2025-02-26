@@ -5,4 +5,4 @@
 layout: home
 ---
 
-*[My CV](CV.pdf)*
+*[My CV](my_cv.pdf)*
