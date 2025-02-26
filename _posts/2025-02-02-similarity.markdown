@@ -4,8 +4,8 @@ title:  "Representation Learning, search & retrieval: 3D visual data"
 date:   2025-02-02 01:00:28 +0000
 categories: jekyll update
 ---
-[My Final Year Report](pfe.pdf)</b> <i>(Multimodal AI For Business
-Productivity)
+[My Final Year Report](pfe.pdf) : *Multimodal AI For Business
+Productivity*
 
 <div class="warning" style='padding:0.1em; background-color:#E9D8FD; color:#69337A'>
 <span>
