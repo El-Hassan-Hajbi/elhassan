@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Experiences"
-date:   2026-03-12 18:08:28 +0000
+date:   2026-03-11 18:08:28 +0000
 categories: jekyll update
 ---
 
