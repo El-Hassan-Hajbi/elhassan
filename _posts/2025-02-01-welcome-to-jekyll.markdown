@@ -3,6 +3,8 @@ layout: post
 title:  "Vertical AI agents"
 date:   2025-02-01 18:08:28 +0000
 categories: jekyll update
+image1: /assets/images/17384938530856.jpg
+demo: /assets/videos/video.mp4
 ---
 
 >Agentic systems have and are still being a hot topic for [AI researchers](https://paperswithcode.com/task/ai-agent), passionate builders ([YCombinator](https://www.ycombinator.com/companies/industry/ai-assistant), Entrepreneur First and many others), startups & businesses. Demistifying this topic requires understanding both where the intelligence stands and where the business impact starts.
@@ -185,8 +187,7 @@ Read the [blog](https://langchain-ai.github.io/langgraph/how-tos/branching/#next
 
 ### <a name="memory_checkpoints_langgraph">Persistence and Memory</a>
 
-![checkpoints_langgraph_img](assets/17384938530856.jpg)
-
+![checkpoints_langgraph_img]({{page.image1 | relative_url }})
 
 ### <a name="good_practises">Good Practises</a>
 
@@ -205,4 +206,13 @@ Don't neglect Agent testing. (continous integration for AI agents)
 To continue reading here are some valuable writings. 
 ## Part 2: Procurement risk & resilience AI Agent
 
+<video controls width="640" height="360">
+  <source src="{{ page.demo | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## new features 
+prompt optimizer dpsy ...
+example selector langchain
+structured output optimizer trustcal for tool calling 
 
